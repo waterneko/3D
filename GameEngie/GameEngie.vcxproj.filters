@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BasicClass">
+      <UniqueIdentifier>{bde8f5fb-8485-429b-aee4-4d84734c2c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{62f850b7-14ab-4808-aa8a-1df565ab4593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicClass\ソース ファイル">
+      <UniqueIdentifier>{180ea97f-a375-4864-847c-22bac359980c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicClass\ヘッダー ファイル">
+      <UniqueIdentifier>{343b8b45-ae0c-48b0-9b60-3f7541af5e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceManager">
+      <UniqueIdentifier>{00c18ef4-f9e7-44a0-964d-9d2a9b991770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceManager\ソース ファイル">
+      <UniqueIdentifier>{bc10c782-f96a-406e-aa3f-78a84b47dc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceManager\ヘッダー ファイル">
+      <UniqueIdentifier>{17c315a2-eea2-4f8a-8a90-7b6f9f911bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClass">
+      <UniqueIdentifier>{7e26dbd7-edda-4fc1-ae39-9d8308cf5e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClass\ソース ファイル">
+      <UniqueIdentifier>{493327e5-58ed-40bf-b1f6-931ec1b01223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClass\ヘッダー ファイル">
+      <UniqueIdentifier>{4d8d95ca-b8ba-4f41-ae88-f00bc6da61fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionClass">
+      <UniqueIdentifier>{e8ec9046-bc99-4bc9-9887-aa09111ddfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionClass\ソース ファイル">
+      <UniqueIdentifier>{467cd689-16a9-4b58-978f-5a46401c7115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionClass\ヘッダー ファイル">
+      <UniqueIdentifier>{f9b2a731-bf9a-4d58-9f3e-0634ed9a38bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageClass">
+      <UniqueIdentifier>{855771de-6e1a-416e-a263-3ead7d2c42c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageClass\Stage2">
+      <UniqueIdentifier>{ea3f9470-0907-4802-84b9-65258e720a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageClass\Stage1">
+      <UniqueIdentifier>{04b9d423-c3f8-4e1c-9d43-0e6b799f3108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageClass\Stage1\ソース ファイル">
+      <UniqueIdentifier>{17ba2662-056b-44bd-b12b-be1ef4692b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageClass\Stage2\ソース ファイル">
+      <UniqueIdentifier>{73b128bf-0413-4d4d-97e6-ad0c648eeaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageClass\Stage1\ヘッダー ファイル">
+      <UniqueIdentifier>{f770ad2d-cf05-410e-b322-8710462e4c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageClass\Stage2\ヘッダー ファイル">
+      <UniqueIdentifier>{0c37921f-9d49-43b0-ade5-3316dfe0676b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\stb_rect_pack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\stb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\stb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTitle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenTexture.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMesh.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldTransform.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="XA2SourceVoice.h">
+      <Filter>BasicClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimXfile.h">
+      <Filter>SourceManager\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceManager.h">
+      <Filter>SourceManager\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Texturefile.h">
+      <Filter>SourceManager\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Wavfile.h">
+      <Filter>SourceManager\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Xfile.h">
+      <Filter>SourceManager\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeTexture.h">
+      <Filter>GameClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>GameClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTexture.h">
+      <Filter>GameClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGauge.h">
+      <Filter>GameClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>GameClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RayIntersect.h">
+      <Filter>CollisionClass\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1A.h">
+      <Filter>StageClass\Stage1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1B.h">
+      <Filter>StageClass\Stage1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>StageClass\Stage1\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene2A.h">
+      <Filter>StageClass\Stage2\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>StageClass\Stage2\ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTitle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationController.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenTexture.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMesh.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTransform.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="XA2SourceVoice.cpp">
+      <Filter>BasicClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimXfile.cpp">
+      <Filter>SourceManager\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceManager.cpp">
+      <Filter>SourceManager\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Texturefile.cpp">
+      <Filter>SourceManager\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Wavfile.cpp">
+      <Filter>SourceManager\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Xfile.cpp">
+      <Filter>SourceManager\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeTexture.cpp">
+      <Filter>GameClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>GameClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTexture.cpp">
+      <Filter>GameClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGauge.cpp">
+      <Filter>GameClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDome.cpp">
+      <Filter>GameClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RayIntersect.cpp">
+      <Filter>CollisionClass\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1A.cpp">
+      <Filter>StageClass\Stage1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1B.cpp">
+      <Filter>StageClass\Stage1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>StageClass\Stage1\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene2A.cpp">
+      <Filter>StageClass\Stage2\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>StageClass\Stage2\ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
